@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/junnysmiles/Lab01_101197834_COMP3133/issues"
   },
-  "homepage": "https://github.com/junnysmiles/Lab01_101197834_COMP3133#readme"
+  "homepage": "https://github.com/junnysmiles/Lab01_101197834_COMP3133#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  }
 }

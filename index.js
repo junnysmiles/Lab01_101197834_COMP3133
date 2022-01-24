@@ -1,6 +1,8 @@
 const fs = require('fs')
+const csv = require('csv-parser');
 
 const data = 'country, year, population'
+const canada = csvParser
 
 // If files exist, delete them 
 try {
@@ -31,7 +33,7 @@ try{
     console.log(err)
 }
 
-// 
+// Writes filtered data
 fs.writeFileSync('canada.txt', data)
 fs.writeFileSync('usa.txt', data)
 
